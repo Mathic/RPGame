@@ -1,0 +1,33 @@
+﻿<Window x:Class="RPCharacter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="lbl1" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="8">1</Label>
+        <Label x:Name="lbl2" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2">1</Label>
+        <Button Name="startButton" Grid.Column="5" Margin="5,5">Start</Button>
+        <Button Name="equipButton" Grid.Column="6" Margin="5,5">Equip</Button>
+    </Grid>
+</Window>
