@@ -12,7 +12,7 @@
         </Grid.ColumnDefinitions>
         <Button Name="subtractButton" Content="-" Margin="10" Click="subtractButton_Click"/>
         <Button Name="addButton" Content="+" Grid.Column="2" Margin="10" Click="addButton_Click"/>
-        <Label Name="statPointsLabel" HorizontalContentAlignment="Center" 
+        <Label Name="statPointsLabel" HorizontalContentAlignment="Center"
                Content="10" Grid.Column="1" Margin="10"/>
     </Grid>
 </UserControl>

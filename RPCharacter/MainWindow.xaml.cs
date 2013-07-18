@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using RPCharacter.Properties;
+
 namespace RPCharacter
 {
     /// <summary>
@@ -20,6 +22,8 @@ namespace RPCharacter
     /// </summary>
     public partial class MainWindow : Window
     {
+		CharacterCreation characterCreation;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,8 +31,13 @@ namespace RPCharacter
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            var characterCreation = new CharacterCreation();
-            characterCreation.Show();
+			characterCreation = new CharacterCreation();
+            characterCreation.ShowDialog();
+			Settings.Default.allocatable = 10;
+			if (characterCreation.hero != null)
+			{
+				charInfo.Text = characterCreation.hero.ToString();
+			}
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPCharacter
 {
-    class Hero : ICharacter
+    public class Hero : ICharacter
     {
 		public enum ClassType
 		{
@@ -91,11 +91,6 @@ namespace RPCharacter
         }
 
         #endregion
-
-        public void Create()
-        {
-            
-        }
 
         public override string ToString()
         {

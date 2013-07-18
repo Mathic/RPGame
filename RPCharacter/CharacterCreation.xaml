@@ -39,7 +39,5 @@
         <Label Content="Intelligence" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="4" VerticalAlignment="Top"/>
         <Label Content="Wisdom" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="5" VerticalAlignment="Top"/>
         <Label Content="Charisma" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="6" VerticalAlignment="Top"/>
-
-        <Label Name="charInfo" Content="" Margin="10" Grid.Row="2" Grid.Column="2" Grid.RowSpan="5"/>
     </Grid>
 </Window>

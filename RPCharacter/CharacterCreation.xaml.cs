@@ -21,6 +21,8 @@ namespace RPCharacter
     /// </summary>
     public partial class CharacterCreation : Window
     {
+		public Hero hero;
+
         public CharacterCreation()
         {
             InitializeComponent();
@@ -93,9 +95,8 @@ namespace RPCharacter
 			{
 				Random rand = new Random();
 				HeroBuilder start = new HeroBuilder();
-				Hero hero = new Hero();
-
-
+				hero = new Hero();
+				
 				start.Create("Hero")
 					.As((Hero.ClassType)classComboBox.SelectedValue)
 					.From((Hero.RaceType)raceComboBox.SelectedValue)
@@ -111,12 +112,13 @@ namespace RPCharacter
 					.MP(100);
 
 				hero = start.Born();
-
-				charInfo.Content = hero.ToString();
+				var parent = Window.GetWindow(this) as MainWindow;
+				parent = new MainWindow();
+				this.Close();
 			}
 			else
 			{
-				charInfo.Content = "Allocate all available points.";
+				//charInfo.Text = "Allocate all available points.";
 			}
 		}
 
