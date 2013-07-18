@@ -10,3 +10,15 @@ C:\Users\Extra Medium\Google Drive\RPGame (1)\RPBattle\obj\Debug\RPBattle.Proper
 C:\Users\Extra Medium\Google Drive\RPGame (1)\RPBattle\obj\Debug\RPBattle.csproj.GenerateResource.Cache
 C:\Users\Extra Medium\Google Drive\RPGame (1)\RPBattle\obj\Debug\RPBattle.exe
 C:\Users\Extra Medium\Google Drive\RPGame (1)\RPBattle\obj\Debug\RPBattle.pdb
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\bin\Debug\RPBattle.exe.config
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\bin\Debug\RPBattle.exe
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\bin\Debug\RPBattle.pdb
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\MainWindow.baml
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\MainWindow.g.cs
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\App.g.cs
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle_MarkupCompile.cache
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.g.resources
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.Properties.Resources.resources
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.csproj.GenerateResource.Cache
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.exe
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.pdb

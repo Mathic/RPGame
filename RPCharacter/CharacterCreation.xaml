@@ -1,0 +1,35 @@
+﻿<Window x:Class="RPCharacter.CharacterCreation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CharacterCreation" Height="350" Width="350"
+        xmlns:uc="clr-namespace:RPCharacter">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+        </Grid.RowDefinitions>
+        <uc:StatsChooser x:Name="strengthStat" Grid.Column="1" Grid.Row="1"/>
+        <uc:StatsChooser x:Name="constStat" Grid.Column="1" Grid.Row="2" />
+        <uc:StatsChooser x:Name="dexStat" Grid.Column="1" Grid.Row="3" />
+        <uc:StatsChooser x:Name="wisStat" Grid.Column="1" Grid.Row="4" />
+        <uc:StatsChooser x:Name="intStat" Grid.Column="1" Grid.Row="5" />
+        <uc:StatsChooser x:Name="chaStat" Grid.Column="1" Grid.Row="6" />
+        <Label Name="allocatableLabel" Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Label Content="Strength" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Constitution" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="Dexterity" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+        <Label Content="Intelligence" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+        <Label Content="Wisdom" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="5" VerticalAlignment="Top"/>
+        <Label Content="Charisma" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="6" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

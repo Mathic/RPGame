@@ -13,3 +13,15 @@ C:\Users\Extra Medium\Google Drive\RPGame (1)\RPWorld\bin\Debug\WpfApplication1.
 C:\Users\Extra Medium\Google Drive\RPGame (1)\RPWorld\obj\Debug\RPWorld.csprojResolveAssemblyReference.cache
 C:\Users\Extra Medium\Google Drive\RPGame (1)\RPWorld\obj\Debug\RPWorld.exe
 C:\Users\Extra Medium\Google Drive\RPGame (1)\RPWorld\obj\Debug\RPWorld.pdb
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\bin\Debug\RPWorld.exe.config
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\bin\Debug\RPWorld.exe
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\bin\Debug\RPWorld.pdb
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\MainWindow.baml
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\MainWindow.g.cs
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\App.g.cs
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld_MarkupCompile.cache
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.g.resources
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.Properties.Resources.resources
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.csproj.GenerateResource.Cache
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.exe
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.pdb

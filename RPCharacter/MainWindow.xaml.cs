@@ -24,5 +24,11 @@ namespace RPCharacter
         {
             InitializeComponent();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var characterCreation = new CharacterCreation();
+            characterCreation.Show();
+        }
     }
 }

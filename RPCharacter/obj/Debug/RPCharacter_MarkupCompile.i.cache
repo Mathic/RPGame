@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Extra Medium\Google Drive\RPGame (1)\RPCharacter\obj\Debug\
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\
 RPCharacter
 none
 false
 DEBUG;TRACE
-C:\Users\Extra Medium\Google Drive\RPGame (1)\RPCharacter\App.xaml
-11151548125
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\App.xaml
+3-1407677615
 
-17-1373238042
+191013714165
 12-1401562060
-MainWindow.xaml;
+CharacterCreation.xaml;MainWindow.xaml;StatsChooser.xaml;
 
-False
+True
 
