@@ -26,8 +26,9 @@ namespace RPCharacter
 
         public StatsChooser()
         {
+            var parent = Window.GetWindow(this) as CharacterCreation;
             InitializeComponent();
-            checkAllocatable();
+            parent.checkAllocatable();
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
@@ -52,34 +53,6 @@ namespace RPCharacter
             statPointsLabel.Content = Convert.ToString(statPoints);
             parent.allocatableLabel.Content = Convert.ToString(Settings.Default.allocatable);
             parent.checkAllocatable();
-        }
-
-        private bool checkAllocatable()
-        {
-            bool isAllocatable;
-            if (Settings.Default.allocatable > 10)
-            {
-                subtractButton.IsEnabled = false;
-                isAllocatable = false;
-            }
-            else
-            {
-                subtractButton.IsEnabled = true;
-                isAllocatable = true;
-            }
-
-            if (Settings.Default.allocatable < 0)
-            {
-                addButton.IsEnabled = false;
-                return false;
-            }
-            else
-            {
-                addButton.IsEnabled = true;
-                isAllocatable = true;
-            }
-
-            return isAllocatable;
         }
     }
 }

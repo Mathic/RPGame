@@ -28,3 +28,4 @@ C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\CharacterCre
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter.g.resources
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter.Properties.Resources.resources
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter.csproj.GenerateResource.Cache
+C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter.csprojResolveAssemblyReference.cache
