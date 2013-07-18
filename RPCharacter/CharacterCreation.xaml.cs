@@ -24,7 +24,8 @@ namespace RPCharacter
         public CharacterCreation()
         {
             InitializeComponent();
-            
+			classComboBox.ItemsSource = Enum.GetValues(typeof(Hero.ClassType));
+			raceComboBox.ItemsSource = Enum.GetValues(typeof(Hero.RaceType));
         }
 
         // taken from http://stackoverflow.com/questions/974598/find-all-controls-in-wpf-window-by-type
@@ -80,5 +81,50 @@ namespace RPCharacter
                 }
             }
         }
+
+		private void statChooser_Loaded(object sender, RoutedEventArgs e)
+		{
+			checkAllocatable();
+		}
+
+		private void createHeroButton_Click(object sender, RoutedEventArgs e)
+		{
+			if (Settings.Default.allocatable == 0)
+			{
+				Random rand = new Random();
+				HeroBuilder start = new HeroBuilder();
+				Hero hero = new Hero();
+
+
+				start.Create("Hero")
+					.As((Hero.ClassType)classComboBox.SelectedValue)
+					.From((Hero.RaceType)raceComboBox.SelectedValue)
+					.Lvl(1)
+					.Str(getLabelAsInt(strengthStat))
+					.Con(getLabelAsInt(constStat))
+					.Dex(getLabelAsInt(dexStat))
+					.Int(getLabelAsInt(intStat))
+					.Wis(getLabelAsInt(wisStat))
+					.Cha(getLabelAsInt(chaStat))
+					.Gold(100)
+					.HP(100)
+					.MP(100);
+
+				hero = start.Born();
+
+				charInfo.Content = hero.ToString();
+			}
+			else
+			{
+				charInfo.Content = "Allocate all available points.";
+			}
+		}
+
+		private int getLabelAsInt(StatsChooser control)
+		{
+			int outcome;
+			int.TryParse(Convert.ToString(control.statPointsLabel.Content), out outcome);
+			return outcome;
+		}
     }
 }

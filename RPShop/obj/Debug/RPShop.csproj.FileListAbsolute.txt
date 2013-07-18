@@ -22,3 +22,15 @@ C:\Users\Extra Medium\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.Properties
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.csproj.GenerateResource.Cache
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.exe
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\bin\Debug\RPShop.exe.config
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\bin\Debug\RPShop.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\bin\Debug\RPShop.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\MainWindow.baml
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\MainWindow.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\App.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop_MarkupCompile.cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.g.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.Properties.Resources.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.csproj.GenerateResource.Cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPShop\obj\Debug\RPShop.pdb

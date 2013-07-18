@@ -8,25 +8,25 @@ namespace RPCharacter
 {
     class Hero : ICharacter
     {
-        public enum ClassType
-        {
-            Warrior,
-            Paladin,
-            Priest,
-            Rogue,
-            Mage,
-            Warlock
-        }
+		public enum ClassType
+		{
+			Warrior,
+			Paladin,
+			Priest,
+			Rogue,
+			Mage,
+			Warlock
+		};
 
-        public enum RaceType
-        {
-            Human,
-            Dwarf,
-            Elf,
-            Orc,
-            Troll,
-            Tauren
-        }
+		public enum RaceType
+		{
+			Human,
+			Dwarf,
+			Elf,
+			Orc,
+			Troll,
+			Tauren
+		};
 
         private Guid _id;
         private string _name;
@@ -100,12 +100,11 @@ namespace RPCharacter
         public override string ToString()
         {
             return "======================\n" +
-                "Character Id: " + Id.ToString() +
                 "\nGreeting: " + Dialog +
                 "\nNAME:\t" + Name +
                 "\nLVL:\t" + Level +
-                "\t" + Race +
-                "\t" + Class +
+                "   " + Race +
+                " " + Class +
                 "\nSTR:\t" + Strength +
                 "\nCON:\t" + Constitution +
                 "\nDEX:\t" + Dexterity +

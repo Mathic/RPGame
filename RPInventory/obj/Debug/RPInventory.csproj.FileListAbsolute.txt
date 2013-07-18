@@ -22,3 +22,16 @@ C:\Users\Extra Medium\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.csproj.GenerateResource.Cache
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.exe
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\bin\Debug\RPInventory.exe.config
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\bin\Debug\RPInventory.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\bin\Debug\RPInventory.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.csprojResolveAssemblyReference.cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\MainWindow.baml
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\MainWindow.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\App.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory_MarkupCompile.cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.g.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.Properties.Resources.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.csproj.GenerateResource.Cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPInventory\obj\Debug\RPInventory.pdb

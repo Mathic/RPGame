@@ -22,3 +22,15 @@ C:\Users\Extra Medium\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\WpfAppli
 C:\Users\Extra Medium\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\WpfApplication1.g.resources
 C:\Users\Extra Medium\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\RPCharacter.Properties.Resources.resources
 C:\Users\Extra Medium\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\RPGame.csproj.GenerateResource.Cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\RPCharacter.Properties.Resources.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\RPGame.csproj.GenerateResource.Cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\WpfApplication1\obj\Debug\WpfApplication1.pdb

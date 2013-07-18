@@ -25,3 +25,15 @@ C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.Properti
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.csproj.GenerateResource.Cache
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.exe
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\bin\Debug\RPWorld.exe.config
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\bin\Debug\RPWorld.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\bin\Debug\RPWorld.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\MainWindow.baml
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\MainWindow.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\App.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld_MarkupCompile.cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.g.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.Properties.Resources.resources
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.csproj.GenerateResource.Cache
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.exe
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPWorld\obj\Debug\RPWorld.pdb

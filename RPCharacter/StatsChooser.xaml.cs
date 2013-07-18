@@ -26,9 +26,7 @@ namespace RPCharacter
 
         public StatsChooser()
         {
-            var parent = Window.GetWindow(this) as CharacterCreation;
-            InitializeComponent();
-            parent.checkAllocatable();
+			InitializeComponent();
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
