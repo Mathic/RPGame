@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using RPCharacter.View;
 using RPCharacter.Properties;
 
 namespace RPCharacter
@@ -27,6 +28,8 @@ namespace RPCharacter
         public MainWindow()
         {
             InitializeComponent();
+            CenterWindowOnScreen();
+            CheckHeroExists();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -38,6 +41,43 @@ namespace RPCharacter
 			{
 				charInfo.Text = characterCreation.hero.ToString();
 			}
+        }
+
+        private void closeButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private bool CheckHeroExists()
+        {
+            bool isExists = false;
+
+            if (charInfo.Text == "Create a character to show information here and enable the options.")
+            {
+                inventoryButton.IsEnabled = false;
+                shopButton.IsEnabled = false;
+                mapButton.IsEnabled = false;
+                fightButton.IsEnabled = false;
+            }
+            else
+            {
+                inventoryButton.IsEnabled = true;
+                shopButton.IsEnabled = true;
+                mapButton.IsEnabled = true;
+                fightButton.IsEnabled = true;
+            }
+
+            return isExists;
+        }
+
+        private void CenterWindowOnScreen()
+        {
+            double screenWidth = System.Windows.SystemParameters.PrimaryScreenWidth;
+            double screenHeight = System.Windows.SystemParameters.PrimaryScreenHeight;
+            double windowWidth = this.Width;
+            double windowHeight = this.Height;
+            this.Left = (screenWidth / 2) - (windowWidth / 2);
+            this.Top = (screenHeight / 2) - (windowHeight / 2);
         }
     }
 }

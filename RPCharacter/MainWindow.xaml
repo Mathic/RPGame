@@ -1,23 +1,77 @@
 ﻿<Window x:Class="RPCharacter.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="425">
+        Title="MainWindow" Height="400" Width="500" WindowStyle="None" ResizeMode="NoResize">
+    <Window.Resources>
+        <ImageBrush x:Key="ForegroundImage" ImageSource="C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\Images\gold_bg.jpg" />
+        <ImageBrush x:Key="BackgroundImage" ImageSource="C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\Images\red_bg.jpg" />
+        <Style x:Key="TextBlockStyled" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Rockwell Extra Bold"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="Foreground" Value="{StaticResource ForegroundImage}"></Setter>
+        </Style>
+        <Style x:Key="ComboBoxStyled" TargetType="ComboBox">
+            <Setter Property="Background" Value="{StaticResource ForegroundImage}"></Setter>
+            <Setter Property="FontFamily" Value="Rockwell Extra Bold"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+        </Style>
+        <Style x:Key="ButtonStyled" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource ForegroundImage}"></Setter>
+            <Setter Property="FontFamily" Value="Rockwell Extra Bold"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                    Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" 
+                    SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="Blue" />
+                                <Setter Property="Cursor" Value="Hand" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.5"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\Images\red_bg.jpg" />
+    </Window.Background>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="175"></ColumnDefinition>
+            <ColumnDefinition Width="45*"></ColumnDefinition>
+            <ColumnDefinition Width="175"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Content="Create Character" VerticalAlignment="Top" Margin="0,10,10,0" Click="Button_Click_1" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Width="100"/>
 
-        <Expander Header="Character Information" HorizontalAlignment="Left" VerticalAlignment="Top" IsExpanded="True" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2">
+        <Button Style="{StaticResource ButtonStyled}" Name="createButton" Content="Create Hero" Margin="10,10,10,10" Click="Button_Click_1" Grid.Row="0" Grid.Column="2"/>
+        <Button Style="{StaticResource ButtonStyled}" Name="inventoryButton" Content="Inventory" Margin="10,10,10,10" Grid.Row="1" Grid.Column="2"/>
+        <Button Style="{StaticResource ButtonStyled}" Name="shopButton" Content="Shop" Margin="10,10,10,10" Grid.Row="2" Grid.Column="2"/>
+        <Button Style="{StaticResource ButtonStyled}" Name="mapButton" Content="Map" Margin="10,10,10,10" Grid.Row="3" Grid.Column="2"/>
+        <Button Style="{StaticResource ButtonStyled}" Name="fightButton" Content="Fight" Margin="10,10,10,10" Grid.Row="4" Grid.Column="2"/>
+        <Button Style="{StaticResource ButtonStyled}" Name="closeButton" Content="Close" Margin="10,10,10,10" Grid.Row="6" Grid.Column="2" Click="closeButton_Click"/>        
+
+        <Expander FontFamily="Rockwell Extra Bold" FontSize="15" Foreground="Silver" Header="Character Information" IsExpanded="True" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="7" Margin="0,0,4,7">
             <StackPanel>
-                <TextBlock Name="charInfo" TextWrapping="Wrap" Text="Create a character to show information here."/>
+                <TextBlock Text=""/>
+                <TextBlock Style="{StaticResource TextBlockStyled}" TextWrapping="Wrap" Name="charInfo" 
+                           Text="Create a character to show information here and enable the options."/>
             </StackPanel>
         </Expander>
     </Grid>
