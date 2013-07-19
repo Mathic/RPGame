@@ -23,7 +23,7 @@ namespace RPCharacter
     /// </summary>
     public partial class MainWindow : Window
     {
-		CharacterCreation characterCreation;
+		public Hero hero;
 
         public MainWindow()
         {
@@ -32,14 +32,15 @@ namespace RPCharacter
             CheckHeroExists();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void createButton_Click(object sender, RoutedEventArgs e)
         {
-			characterCreation = new CharacterCreation();
+			CharacterCreation characterCreation = new CharacterCreation();
             characterCreation.ShowDialog();
 			Settings.Default.allocatable = 10;
-			if (characterCreation.hero != null)
+			hero = characterCreation.hero;
+			if (hero != null)
 			{
-				charInfo.Text = characterCreation.hero.ToString();
+				charInfo.Text = hero.ToString();
 			}
         }
 

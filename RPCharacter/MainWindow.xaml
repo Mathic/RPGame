@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="400" Width="500" WindowStyle="None" ResizeMode="NoResize">
     <Window.Resources>
-        <ImageBrush x:Key="ForegroundImage" ImageSource="C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\Images\gold_bg.jpg" />
-        <ImageBrush x:Key="BackgroundImage" ImageSource="C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\Images\red_bg.jpg" />
+        <ImageBrush x:Key="ForegroundImage" ImageSource=".\Images\gold_bg.jpg" />
+        <ImageBrush x:Key="BackgroundImage" ImageSource=".\Images\red_bg.jpg" />
         <Style x:Key="TextBlockStyled" TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Rockwell Extra Bold"></Setter>
             <Setter Property="FontSize" Value="13"></Setter>
@@ -42,7 +42,7 @@
         </Style>
     </Window.Resources>
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\Images\red_bg.jpg" />
+        <ImageBrush ImageSource=".\Images\red_bg.jpg" />
     </Window.Background>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -60,7 +60,7 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Button Style="{StaticResource ButtonStyled}" Name="createButton" Content="Create Hero" Margin="10,10,10,10" Click="Button_Click_1" Grid.Row="0" Grid.Column="2"/>
+        <Button Style="{StaticResource ButtonStyled}" Name="createButton" Content="Create Hero" Margin="10,10,10,10" Click="createButton_Click" Grid.Row="0" Grid.Column="2"/>
         <Button Style="{StaticResource ButtonStyled}" Name="inventoryButton" Content="Inventory" Margin="10,10,10,10" Grid.Row="1" Grid.Column="2"/>
         <Button Style="{StaticResource ButtonStyled}" Name="shopButton" Content="Shop" Margin="10,10,10,10" Grid.Row="2" Grid.Column="2"/>
         <Button Style="{StaticResource ButtonStyled}" Name="mapButton" Content="Map" Margin="10,10,10,10" Grid.Row="3" Grid.Column="2"/>

@@ -34,3 +34,4 @@ C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.Prope
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.csproj.GenerateResource.Cache
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.exe
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.pdb
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPBattle\obj\Debug\RPBattle.csprojResolveAssemblyReference.cache

@@ -1,8 +1,19 @@
 ﻿<Window x:Class="RPBattle.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="350">
     <Grid>
-        
+        <UniformGrid Rows="5" Columns="5">
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+        </UniformGrid>
     </Grid>
 </Window>

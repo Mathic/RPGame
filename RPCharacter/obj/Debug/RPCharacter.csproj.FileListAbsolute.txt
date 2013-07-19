@@ -29,15 +29,11 @@ C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\bin\Debug\RPCharacter.exe
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\bin\Debug\RPCharacter.pdb
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\MainWindow.baml
-C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\StatsChooser.baml
-C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\CharacterCreation.g.cs
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\MainWindow.g.cs
-C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\StatsChooser.g.cs
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\App.g.cs
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter_MarkupCompile.cache
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter_MarkupCompile.lref
-C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\CharacterCreation.baml
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter.g.resources
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter.Properties.Resources.resources
 C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\RPCharacter.csproj.GenerateResource.Cache
@@ -48,3 +44,7 @@ C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\View\StatsCh
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\View\CharacterCreation.baml
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\MainWindow.baml
 C:\Users\Extra Medium\Documents\GitHub\RPGame\RPCharacter\obj\Debug\MainWindow.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\View\StatsChooser.baml
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\View\CharacterCreation.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\View\StatsChooser.g.cs
+C:\Users\riza.baltazar\Documents\GitHub\RPGame\RPCharacter\obj\Debug\View\CharacterCreation.baml

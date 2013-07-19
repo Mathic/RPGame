@@ -54,34 +54,19 @@ namespace RPCharacter.View
 
         public void checkAllocatable()
         {
-            foreach (UserControl uc in FindVisualChildren<UserControl>(this))
+			foreach (StatsChooser sc in FindVisualChildren<StatsChooser>(this))
             {
-                if (Settings.Default.allocatable >= 10)
-                {
-                    ((StatsChooser)uc).subtractButton.IsEnabled = false;
-                }
-                else
-                {
-                    ((StatsChooser)uc).subtractButton.IsEnabled = true;
-                }
+				int points = Settings.Default.allocatable;
 
-                if (Settings.Default.allocatable <= 0)
-                {
-                    ((StatsChooser)uc).addButton.IsEnabled = false;
-                }
+                if (points >= 10 || sc.statPoints == 3)
+                    sc.subtractButton.IsEnabled = false;
                 else
-                {
-                    ((StatsChooser)uc).addButton.IsEnabled = true;
-                }
+                    sc.subtractButton.IsEnabled = true;
 
-                if (((StatsChooser)uc).statPoints == 18)
-                {
-                    ((StatsChooser)uc).addButton.IsEnabled = false;
-                }
-                if (((StatsChooser)uc).statPoints == 3)
-                {
-                    ((StatsChooser)uc).subtractButton.IsEnabled = false;
-                }
+				if (points <= 0 || sc.statPoints == 18)
+					sc.addButton.IsEnabled = false;
+                else
+					sc.addButton.IsEnabled = true;
             }
         }
 
